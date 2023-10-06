@@ -2,7 +2,7 @@ title: "Markdown Guide"
 url: https://frankjmb.github.io # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 
-repo: FrankJMB-bak.github.io
+repo: FrankJMB.github.io
 comments: false
 
 plugins:
