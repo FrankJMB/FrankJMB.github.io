@@ -22,7 +22,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
-  {% if jekyll.environment == "production" %}
+  {% if jekyll.environment != "production" %}
   {% if page.title == 'Home' or page.title == '404 Not Found' %}
   <link href="/assets/css/homebundle.css" rel="stylesheet">
   {% else %}
