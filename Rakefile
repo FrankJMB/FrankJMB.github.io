@@ -16,7 +16,7 @@ task :test do
                     'https://twitter.com/datamorgan/status/1109518506125451264',
                     'https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-',
                     %r{https://dpaste.com/*}],
-    :url_swap => { %r{https://www.markdownguide.org} => '' },
+    :url_swap => { %r{https://frankjmb.github.io} => '' },
     :typhoeus => {
       :ssl_verifypeer => false,
       :ssl_verifyhost => 0,
